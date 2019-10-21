@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>Gridea | Caroly</title>
+<title>随便 | Caroly</title>
 <meta name="description" content="我善良，并不代表我不邪恶。">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -15,6 +15,12 @@
 <link rel="stylesheet" href="https://carolymc.github.io//styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
@@ -23,6 +29,7 @@
 
   </head>
   <body>
+  
     <nav class="navbar border fixed split-nav">
   <div class="nav-brand">
     <h3><a href="https://carolymc.github.io/">Caroly</a></h3>
@@ -79,42 +86,45 @@
     <div id="top" class="row site">
       <div class="sm-12 md-8 col">
         <div class="paper">
-          <h2 class="current-tag">标签: Gridea</h2>
-          
-  <article class="article">
-    <h2 class="article-title">
-      <a href="https://carolymc.github.io//post/hello-gridea">Hello Gridea</a>
-    </h2>
-    <p class="article-meta">
-      2018-12-12
-      
-        <a href="https://carolymc.github.io//tag/XyXv5mNNN" class="badge secondary">
-          Gridea
-        </a>
-      
-    </p>
-    <p class="text-lead">
-      <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+          <article class="article">
+            <h1>随便</h1>
+            <p class="article-meta">
+              2019-10-22
+              
+            </p>
+            
+            <div class="post-content">
+              <pre><code>今天是离职的第八天，上午下午各有一场面试，讲真不是很想去。因为已经收到一份offer。但还是本着责任与诚意，认真研究这两家公司的岗位需求。
+</code></pre>
 
-    </p>
-    <div class="row">
-      <a href="https://carolymc.github.io//post/hello-gridea" class="readmore-link">
-        <button>
-          Read More
-        </button>
-      </a>
-    </div>
-  </article>
-
-
+            </div>
+          </article>
         </div>
-        <div class="row flex-edges">
-  
-  
-</div>
+        <div class="paper" data-aos="fade-in">
+          
+            <div class="next-post">
+              <div class="next">
+                下一篇
+              </div>
+              <a href="https://carolymc.github.io//post/hello-gridea">
+                <h3 class="post-title">
+                  Hello Gridea
+                </h3>
+              </a>
+            </div>
+          
+        </div>
+        
+          
+            <div class="paper" data-aos="fade-in">
+              <div id="gitalk-container"></div>
+            </div>
+          
 
+          
+        
       </div>
+
       <div class="sm-12 md-4 col sidebar">
   <div class="paper info-container">
     <img src="https://carolymc.github.io//images/avatar.png?v=1571675961274" class="no-responsive avatar">
@@ -167,7 +177,7 @@
     </div>
     <div class="row">
       
-        <a href="https://carolymc.github.io//tag/XyXv5mNNN" class="badge secondary">
+        <a href="https://carolymc.github.io//tag/XyXv5mNNN" class="badge ">
           Gridea
         </a>
       
@@ -177,6 +187,7 @@
     Powered by <a href="https://carolymc.github.io/" target="_blank">CarolyMC</a> | <a class="rss" href="https://carolymc.github.io//atom.xml" target="_blank">RSS</a>
   </div>
 </div>
+
 
     </div>
 
@@ -189,6 +200,29 @@ AOS.init();
 hljs.initHighlightingOnLoad()
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '88e77b827f4f7e3a7be0',
+        clientSecret: 'c6a516d00eac414d057129cf18eb6569e572a422',
+        repo: 'CarolyMC.github.io',
+        owner: 'CarolyMC',
+        admin: ['CarolyMC'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 

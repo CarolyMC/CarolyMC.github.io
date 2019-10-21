@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>Gridea | Caroly</title>
+<title>随笔 | Caroly</title>
 <meta name="description" content="我善良，并不代表我不邪恶。">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -15,6 +15,12 @@
 <link rel="stylesheet" href="https://carolymc.github.io//styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
@@ -23,6 +29,7 @@
 
   </head>
   <body>
+  
     <nav class="navbar border fixed split-nav">
   <div class="nav-brand">
     <h3><a href="https://carolymc.github.io/">Caroly</a></h3>
@@ -79,42 +86,60 @@
     <div id="top" class="row site">
       <div class="sm-12 md-8 col">
         <div class="paper">
-          <h2 class="current-tag">标签: Gridea</h2>
-          
-  <article class="article">
-    <h2 class="article-title">
-      <a href="https://carolymc.github.io//post/hello-gridea">Hello Gridea</a>
-    </h2>
-    <p class="article-meta">
-      2018-12-12
-      
-        <a href="https://carolymc.github.io//tag/XyXv5mNNN" class="badge secondary">
-          Gridea
-        </a>
-      
-    </p>
-    <p class="text-lead">
-      <p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
+          <article class="article">
+            <h1>随笔</h1>
+            <p class="article-meta">
+              2019-10-22
+              
+            </p>
+            
+            <div class="post-content">
+              <pre><code>今天是离职的第八天，上午下午各有一场面试，讲真不是很想去。因为已经收到一份offer。但还是本着责任与诚意，认真研究这两家公司的岗位需求。
+昨天睡得比较早，所以今天凌晨2：50就醒了。
+打开第一家公司的招聘需求，将岗位需求粘到OneNote上，根据岗位需求的知识点陈列几个自己需要准备的问题，并组织答案记录在下。
+直到5：30。熬不过睡意...
+上午是人事面，可以看出此人信佛，我也是在这一天第一次知道自己是天蝎座(原本以为是天枰座)。问的很详细，包括家庭以及私人生活，以此来观察我是否合适留在这家公司。
+做过面试题，通知回家等待微信面试。未果。
+中午草草吃了楼下买的面包，味道很不错。
+整理了第二家的面试信息，订好闹钟眯了一会。
+下午是先做面试题，其中大部分是C++的基础。被虐的体无完肤。对C++的名词解析并没有特意关注过。
+我原本想的是C#/.Net之类的而不是C++。这玩意自大二之后再没有系统学习过，平常用到的大多是Java或者C#。但C#的语言定义主要是从C/C++继承而来的，一些基础问题还是有相似之处。
+终究还是基础不扎实。
+很感激技术面的大哥。
+帮助我认识到自己的不足之处，讲解了笔试中一道没有见过的题(后来才知道这道题是他出的)。
+这次面后了解到C++的重要性，回来的路上一直在思考自己今后的规划。
+我要重拾C++。
+做此博客记录。
+</code></pre>
 
-    </p>
-    <div class="row">
-      <a href="https://carolymc.github.io//post/hello-gridea" class="readmore-link">
-        <button>
-          Read More
-        </button>
-      </a>
-    </div>
-  </article>
-
-
+            </div>
+          </article>
         </div>
-        <div class="row flex-edges">
-  
-  
-</div>
+        <div class="paper" data-aos="fade-in">
+          
+            <div class="next-post">
+              <div class="next">
+                下一篇
+              </div>
+              <a href="https://carolymc.github.io//post/sui-bian">
+                <h3 class="post-title">
+                  随便
+                </h3>
+              </a>
+            </div>
+          
+        </div>
+        
+          
+            <div class="paper" data-aos="fade-in">
+              <div id="gitalk-container"></div>
+            </div>
+          
 
+          
+        
       </div>
+
       <div class="sm-12 md-4 col sidebar">
   <div class="paper info-container">
     <img src="https://carolymc.github.io//images/avatar.png?v=1571675961274" class="no-responsive avatar">
@@ -178,6 +203,7 @@
   </div>
 </div>
 
+
     </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -189,6 +215,29 @@ AOS.init();
 hljs.initHighlightingOnLoad()
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '88e77b827f4f7e3a7be0',
+        clientSecret: 'c6a516d00eac414d057129cf18eb6569e572a422',
+        repo: 'CarolyMC.github.io',
+        owner: 'CarolyMC',
+        admin: ['CarolyMC'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 

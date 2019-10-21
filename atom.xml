@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://carolymc.github.io/</id>
     <title>Caroly</title>
-    <updated>2019-10-21T15:38:55.885Z</updated>
+    <updated>2019-10-21T16:39:31.930Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://carolymc.github.io/"/>
     <link rel="self" href="https://carolymc.github.io//atom.xml"/>
@@ -10,6 +10,41 @@
     <logo>https://carolymc.github.io//images/avatar.png</logo>
     <icon>https://carolymc.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, Caroly</rights>
+    <entry>
+        <title type="html"><![CDATA[随笔]]></title>
+        <id>https://carolymc.github.io//post/sui-bi</id>
+        <link href="https://carolymc.github.io//post/sui-bi">
+        </link>
+        <updated>2019-10-21T16:03:45.000Z</updated>
+        <content type="html"><![CDATA[<pre><code>今天是离职的第八天，上午下午各有一场面试，讲真不是很想去。因为已经收到一份offer。但还是本着责任与诚意，认真研究这两家公司的岗位需求。
+昨天睡得比较早，所以今天凌晨2：50就醒了。
+打开第一家公司的招聘需求，将岗位需求粘到OneNote上，根据岗位需求的知识点陈列几个自己需要准备的问题，并组织答案记录在下。
+直到5：30。熬不过睡意...
+上午是人事面，可以看出此人信佛，我也是在这一天第一次知道自己是天蝎座(原本以为是天枰座)。问的很详细，包括家庭以及私人生活，以此来观察我是否合适留在这家公司。
+做过面试题，通知回家等待微信面试。未果。
+中午草草吃了楼下买的面包，味道很不错。
+整理了第二家的面试信息，订好闹钟眯了一会。
+下午是先做面试题，其中大部分是C++的基础。被虐的体无完肤。对C++的名词解析并没有特意关注过。
+我原本想的是C#/.Net之类的而不是C++。这玩意自大二之后再没有系统学习过，平常用到的大多是Java或者C#。但C#的语言定义主要是从C/C++继承而来的，一些基础问题还是有相似之处。
+终究还是基础不扎实。
+很感激技术面的大哥。
+帮助我认识到自己的不足之处，讲解了笔试中一道没有见过的题(后来才知道这道题是他出的)。
+这次面后了解到C++的重要性，回来的路上一直在思考自己今后的规划。
+我要重拾C++。
+做此博客记录。
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[随便]]></title>
+        <id>https://carolymc.github.io//post/sui-bian</id>
+        <link href="https://carolymc.github.io//post/sui-bian">
+        </link>
+        <updated>2019-10-21T16:03:45.000Z</updated>
+        <content type="html"><![CDATA[<pre><code>今天是离职的第八天，上午下午各有一场面试，讲真不是很想去。因为已经收到一份offer。但还是本着责任与诚意，认真研究这两家公司的岗位需求。
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://carolymc.github.io//post/hello-gridea</id>
