@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://carolymc.github.io/</id>
     <title>Caroly</title>
-    <updated>2019-10-21T16:39:31.930Z</updated>
+    <updated>2019-10-21T16:40:03.476Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://carolymc.github.io/"/>
     <link rel="self" href="https://carolymc.github.io//atom.xml"/>
@@ -32,16 +32,6 @@
 这次面后了解到C++的重要性，回来的路上一直在思考自己今后的规划。
 我要重拾C++。
 做此博客记录。
-</code></pre>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[随便]]></title>
-        <id>https://carolymc.github.io//post/sui-bian</id>
-        <link href="https://carolymc.github.io//post/sui-bian">
-        </link>
-        <updated>2019-10-21T16:03:45.000Z</updated>
-        <content type="html"><![CDATA[<pre><code>今天是离职的第八天，上午下午各有一场面试，讲真不是很想去。因为已经收到一份offer。但还是本着责任与诚意，认真研究这两家公司的岗位需求。
 </code></pre>
 ]]></content>
     </entry>
